@@ -1,0 +1,7 @@
+{
+    "compilerOptions": {
+        // 为什么有些定义了的变量（比如使用 enum 定义的变量）未使用，ESLint 却没有报错？开启以下两个选项
+        "noUnusedLocals": true,
+        "noUnusedParameters": true
+    }
+}

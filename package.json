@@ -1,0 +1,25 @@
+{
+    "name": "ts-check-demo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "eslint": "eslint src --ext .ts,.tsx"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.24.0",
+        "@typescript-eslint/parser": "^5.24.0",
+        "eslint": "^8.15.0",
+        "eslint-config-alloy": "^4.5.1",
+        "eslint-plugin-react": "^7.29.4",
+        "prettier": "^2.6.2",
+        "typescript": "^4.6.4"
+    },
+    "dependencies": {
+        "react": "^18.1.0"
+    }
+}
